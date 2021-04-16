@@ -13,7 +13,7 @@ def splitLineIntoParts(line):
 	return line
 
 def setConfigVar(name, value):
-	os.system('heroku config:set ' + name + '=' + value)
+	os.system('heroku config:set ' + name + '=' + value + '-a ' + appname)
 
 with open('.env') as e:
 	
