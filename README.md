@@ -10,8 +10,8 @@ This script works especially for laravel, but can be used for any other environm
 ### Installation and Usage
 * Clone or download this repo, then copy the `heroku-config.py` file into the root directory of your project (or wherever your .env file is located)
 * Or download the `heroku-config.py` directly from git into the same location as your .env file
-* If you need to cpy env from another Heroku app, first ensure you are logged in on ythe Heroku CLI - heroku login  , then run 
-heroku config -s -a sourceapp > envvars.txt
+* If you need to cpy env from another Heroku app, first ensure you are logged into the Heroku CLI - `heroku login`  , then run 
+`heroku config -s -a sourceapp > envvars.txt`
 - From the cmd, `cd` into the location of your .env file e.g ``cd C:/projects/your heroku project``
 - Run `python heroku-config.py` . You should see your config vars getting set on after the other
 - That's all
